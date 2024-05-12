@@ -92,7 +92,7 @@ namespace Test12_4Lab
             //Act
             collection.Clear();
             //Assert
-            Assert.IsNotNull(collection);
+            Assert.IsNull(collection);
         }
 
         [TestMethod]
